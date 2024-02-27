@@ -1,3 +1,4 @@
+import homeLogo from '../../assets/home.png'
 import './Home.css';
 import ListaPostagens from '../../components/postagens/listaPostagens/ListaPostagens';
 import ModalPostagem from '../../components/postagens/modalPostagem/ModalPostagem';
@@ -17,6 +18,11 @@ function Home() {
               <ModalPostagem />
               <button className='rounded bg-white text-blue-800 py-2 px-4'>Ver postagens</button>
             </div>
+            </div>
+  
+            <div className="flex justify-center ">
+              <img src={homeLogo} alt="" className='w-2/3' />
+      
             </div>
           </div>
         </div>
